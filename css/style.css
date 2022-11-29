@@ -179,14 +179,15 @@ header{
 
 
 .main-second{
-    padding: 400px 0 230px 0;
+    padding: 360px 0 180px 0;
     display: flex;
 }
 
 .image{
-    margin: -130px 85px 0 0;
+    margin: -65px 85px 0 0;
     width: 100%;
     max-width: 515px;
+    display: block;
 }
 
 .main-third{
@@ -313,10 +314,24 @@ background-color: #0099ff;
 .flex-image-one{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.main-fife{
+    margin-top: 285px;
+}
 
+.clas{
+    height: 20px;
+}
 
+.gg{
+    padding: 20px 0 50px 0;
+}
+
+.bottom h2{
+    margin-top: 40px;
+}
 
 
         /* FONT-FAMILY */

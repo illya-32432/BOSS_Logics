@@ -245,6 +245,11 @@ header{
     margin-top: 25px;
 }
 
+.flexx{
+    display: flex;
+    padding-top: 40px;
+}
+
 .first-mini-block{
     width: 100%;
     max-width: 250px;
@@ -318,7 +323,7 @@ background-color: #0099ff;
 }
 
 .main-fife{
-    margin-top: 285px;
+    margin: 285px 0 210px 0;
 }
 
 .clas{
@@ -331,6 +336,18 @@ background-color: #0099ff;
 
 .bottom h2{
     margin-top: 40px;
+}
+
+
+
+footer{
+    background-color: #001626;
+}
+
+.wrapp-sec{
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
 }
 
 

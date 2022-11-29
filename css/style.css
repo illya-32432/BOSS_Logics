@@ -141,6 +141,18 @@ header{
     margin-top: 40px;
 }
 
+#margin-top-second{
+    margin-top: 40px;
+}
+
+#margin-top-nonum{
+    margin-top: 40px;
+}
+
+.margin-top-third{
+    padding-top: 20px;
+}
+
 .botton{
     display: flex;
     margin: 55px 0;
@@ -167,14 +179,141 @@ header{
 
 
 .main-second{
-    padding: 500px 0 0 0;
+    padding: 400px 0 230px 0;
     display: flex;
 }
 
 .image{
     margin: -130px 85px 0 0;
+    width: 100%;
+    max-width: 515px;
 }
 
+.main-third{
+    padding-top: 100px;
+}
+
+.mini-text h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+    font-family: "Geometria";
+    padding-top: 50px;
+}
+
+.main-text-title{
+    margin-bottom: 95px;
+}
+
+.main-text-title h1{
+    font-size: 70px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria";
+    text-align: center;
+}   
+
+.main-four{
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    margin: 300px 0 0 150px;
+}
+
+.items-title h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: "Geometria";
+    text-align: center;
+}
+
+.sub-title-p p{
+    font-size: 18px;
+    color: #2b2b2b;
+    font-family: "Geometria";
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    margin-top: 25px;
+}
+
+.first-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.second-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.third-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.padd{
+    padding-left: 180px;
+}
+
+.bottom{
+    margin: 85px 0 100px 0;
+}
+
+.bottom h2 a{
+font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #2b2b2b;
+font-weight: bold;
+font-family: "Geometria";
+border: 2.5px solid #0099ff;
+border-radius: 40px;
+text-decoration: none;
+padding: 20px 85px;
+}
+
+.bottom h2 a:hover{
+color: #ffffff;
+background-color: #0099ff;
+}
+
+.no-padd{
+    margin: 0;
+}
+
+.tak-padd{
+    margin-bottom: 35px;
+}
+
+#niebies{
+    margin: 50px 0 0 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+    font-family: "Geometria";
+}
+
+.gray{
+    font-size: 18px;
+    color: #a3a3a3;
+    font-family: "Geometria";
+    margin: 6px 0;
+}
+
+.flex-image-one{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

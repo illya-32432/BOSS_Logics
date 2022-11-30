@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6{
 
 .background{
     background-image: url(../img/bylka.png);
+    width: 100%;
 }
 
 .wrapper{
@@ -348,6 +349,11 @@ footer{
     width: 100%;
     max-width: 1410px;
     margin: 0 auto;
+}
+
+.df{
+    display: flex;
+    align-items: start;
 }
 
 

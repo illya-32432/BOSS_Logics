@@ -6,46 +6,50 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
-.background{
-    background-image: url(../img/bylka.png);
-}
-
 .wrapper{
-    max-width: 1410px;
+    max-width:1400px;
     margin: 0 auto;
-    padding: 0 25px;
-}
-
-@media (max-width:1410px){
-    .wrapper{
-        max-width: 1380px;
-    }
-}
-@media (max-width:1200px){
-    .wrapper{
-        max-width: 970px;
-    }
-}
-@media (max-width:992px){
-    .wrapper{
-        max-width: 750px;
-    }
-}
-@media (max-width:767px){
-    .wrapper{
-        max-width: none;
-    }
+    padding: 0 40px;
 }
 
 
-header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;  
-    margin-right: -30px;
 }
 
+
+.home-section .abstract {
+    top: 0;
+    right: 0;
+}
+
+.abstract_1 {
+    max-width: 1360px;
+    width: 75vw;
+}
+
+.abstract_1, .abstract_2, .abstract_3 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.abstract_2 {
+    max-width: 1033px;
+    width: 60vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+.boss-log-logo{
+    padding-bottom: 10px;
+}
 
 .header-nav{
     display: flex;
@@ -61,7 +65,7 @@ header{
 }
 
 .nav-menu li{
-    margin-right: 70px;
+    margin-right: 50px;
 }
 
 .nav-menu li a{
@@ -79,6 +83,15 @@ header{
     color: #1a1a1a;
 }
 
+.line > b {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #09f;
+    mix-blend-mode: overlay;
+    -webkit-text-stroke: 0.5px #09f;
+    -webkit-text-fill-color: transparent;
+    line-height: inherit;
+}
 
         /* SOCIAL */
 
@@ -99,41 +112,48 @@ header{
  a.fb {
     height: 19px;
     width: 10px;
-    background-position: -18px 0px;
+    background-position: 0px 0px;
  }
  
  .social li:hover>.fb {
     height: 19px;
     width: 10px;
-    background-position: -18px -18px;
+    background-position: 0px -22px;
  }
  
  a.tw {
-    width: 18px;
-    height: 15px;
-    background-position: -31px 0;
+    width: 23px;
+    height: 20px;
+    background-position: -13px 0;
     margin: 0 20px;
  }
  
  .social li:hover>.tw {
-    width: 18px;
-    height: 15px;
-    background-position: -31px -18px;
+    width: 24px;
+    height: 20px;
+    background-position: -13px -23px;
  }
  
- a.in {
-    width: 19px;
-    height: 19px;
-    background-position: -49px 2px;
- }
- 
- .social li:hover>.in {
-    width: 19px;
-    height: 19px;
-    background-position: -49px -16px;
- }
 
- .sociall ul{
+ .social li:hover>.in {
+    width: 21px;
+    height: 19px;
+    background-position: -37px -23px;
+ }
+ 
+ a.in{
+    width: 19px;
+    height: 20px;
+    background-position: -39px 0px;
+}
+ 
+
+        /* SOCIAL */
+
+        /* SOCIALL */
+
+
+.sociall ul{
     display: flex;
     list-style: none;
     margin: 0;
@@ -143,49 +163,32 @@ header{
 .sociall a {
     display: block;
     background: url(../img/sprite.png) no-repeat;
- }
- 
+}
 
- a.fb {
-    height: 19px;
-    width: 10px;
-    background-position: -18px 0px;
- }
  
- .sociall li:hover>.fb {
-    height: 19px;
-    width: 10px;
-    background-position: -18px -18px;
- }
- 
- a.tw {
-    width: 18px;
-    height: 15px;
-    background-position: -31px 0;
+a.tww {
+    width: 23px;
+    height: 20px;
+    background-position: -13px 0;
     margin: 0 20px;
- }
- 
- .sociall li:hover>.tw {
-    width: 18px;
-    height: 15px;
-    background-position: -31px -18px;
- }
- 
- a.in {
+}
+
+.sociall ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+a.ins{
     width: 19px;
-    height: 19px;
-    background-position: -49px 2px;
- }
- 
- .sociall li:hover>.in {
-    width: 19px;
-    height: 19px;
-    background-position: -49px -16px;
- }
+    height: 20px;
+    background-position: -39px 0px;
+}
 
+        /* SOCIALL */
 
-
-        /* SOCIAL */
 
         /* MAIN */
 
@@ -195,17 +198,6 @@ header{
 
 .main-text{
     border-left: 3px solid #00cbff;
-}
-
-.main-text b{
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #09f;
-    mix-blend-mode: overlay;
-    -webkit-text-stroke: 1px #09f;
-    -webkit-text-fill-color: transparent;
-    line-height: inherit;
-    font-family: "Geometria";
 }
 
 .main-text h1{
@@ -488,8 +480,9 @@ footer{
     margin: 0;
 }
 
-.picture picture img{
-    padding: 3px 0 15px 0;
+
+.img img{
+    width: 100%;
 }
 
 .pelmen{

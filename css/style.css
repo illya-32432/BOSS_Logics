@@ -7,7 +7,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .wrapper{
-    max-width:1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -130,6 +131,10 @@ h1, h2, h3, h4, h5, h6{
 
 img{
     max-width: 100%;
+}
+
+.hover-sub:hover{
+    color: #0099ff;
 }
 
 .boss-log-logo{
@@ -625,17 +630,20 @@ footer{
 
 .posh::before{
     content: url(../img/posh.png);
-    padding-right: 10px;    
+    padding-right: 10px;
+    margin-left: -20px;    
 }
 
 .tel::before{
     content: url(../img/tel.png);
-    padding-right: 10px;
+    padding-right: 5px;
+    margin-left: -20px;
 }
 
 .bs-lg::before{
     content: url(../img/toch.png);
-    padding-right: 17px;
+    padding-right: 5px;
+    margin-left: -15px;
 }
 
 .poiu{

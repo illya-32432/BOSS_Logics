@@ -597,6 +597,11 @@ footer{
     margin: 0 120px;
 }
 
+.ooo{
+    height: 22px;
+    max-width: 165px;
+}
+
 .footer-title{
     font-size: 14px;
     letter-spacing: 1px;

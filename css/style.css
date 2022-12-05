@@ -282,6 +282,10 @@ a.ins{
     padding-top: 250px;
 }
 
+.popit{
+    padding-bottom: 75px;
+}
+
 .main-text{
     border-left: 3px solid #00cbff;
 }
@@ -291,7 +295,7 @@ a.ins{
     color: #1a1a1a;
     font-weight: 700;
     font-family: "Geometria";
-    padding-left: 8px;
+    padding-left: 20px;
 }
 
 .osob-style{
@@ -564,7 +568,7 @@ footer{
 
 .flex-image{
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 
 .picture-sub-title p{
@@ -577,7 +581,7 @@ footer{
 
 
 .img img{
-    width: 100%;
+    max-width: 575px;
 }
 
 .pelmen{
@@ -641,7 +645,7 @@ footer{
 .input input{
     width: 290px;
     border-radius: 40px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
     background-color: #001726;
     border: 1px solid #fff;
     color: #fff;

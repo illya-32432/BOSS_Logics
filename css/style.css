@@ -594,7 +594,7 @@ footer{
 .input input{
     width: 290px;
     border-radius: 40px;
-    padding: 10px 0 10px 20px;
+    padding: 10px 10px 10px 20px;
     background-color: #001726;
     border: 1px solid #fff;
     color: #fff;

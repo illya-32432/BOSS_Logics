@@ -8,9 +8,9 @@ h1, h2, h3, h4, h5, h6{
 
 .wrapper {
     width: 100%;
-    max-width: 1330px;
+    max-width: 1410px;
     margin: 0 auto;
-    padding: 0 20px 0 20px;
+    padding: 0 -1px 0 20px;
 }
 
 .header{
@@ -99,8 +99,9 @@ h1, h2, h3, h4, h5, h6{
     z-index: -1;
 }
 
-.clf{
-    margin-right: -60px;
+.clf {
+    margin-right: -71px;
+    padding: 0 0 0 50px;
 }
 
 .abstract_4 {
@@ -282,6 +283,12 @@ a.ins{
     background-position: -39px 0px;
 }
 
+a.lin {
+    width: 21px;
+    height: 21px;
+    background-position: -61px 0;
+}
+
         /* SOCIALL */
 
 
@@ -291,10 +298,6 @@ a.ins{
     padding-top: 250px;
 }
 
-.popit{
-    padding-bottom: 75px;
-}
-
 .main-text{
     border-left: 3px solid #00cbff;
 }
@@ -302,17 +305,17 @@ a.ins{
 .main-text h1{
     font-size: 60px;
     color: #1a1a1a;
-    font-weight: 700;
-    font-family: "Geometria";
-    padding-left: 20px;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
 }
 
 .osob-style{
     font-size: 50px;
     color: #1a1a1a;
-    font-weight: 700;
-    font-family: "Geometria";
-    padding-left: 8px;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
     margin: 0;
 }
 
@@ -435,7 +438,7 @@ a.ins{
     font-size: 70px;
     color: #1a1a1a;
     font-weight: 500;
-    font-family: "Geometria";
+    font-family: "Geometria-Medium";
     text-align: center;
 }   
 
@@ -749,6 +752,14 @@ form{
 
         /* FONT-FAMILY */
 
+
+@font-face {
+    font-family: "Geometria";
+    font-family: "Geometria-Medium";
+    src: url(../fonts/Geometria-Bold.ttf);
+    src: url(../fonts/Geometria.ttf);
+    src: url(../fonts/Geometria-Medium.ttf);
+}
 
 @font-face {
     font-family: "Geometria";

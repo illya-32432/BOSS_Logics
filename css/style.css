@@ -96,6 +96,24 @@ h1, h2, h3, h4, h5, h6{
     overflow: hidden;
 }
 
+.dfll {
+    position: relative;
+    overflow: hidden;
+}
+
+.dfll{
+    align-items: center;
+    display: flex;
+}
+
+.dfll .abstract {
+    right: -20px;
+    bottom: -240px;
+    max-width: 960px;
+    width: 50vw;
+    z-index: -1;
+}
+
 .dfl .abstract {
     right: -20px;
     bottom: -240px;
@@ -131,6 +149,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .dfl .abstract {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    max-width: 1260px;
+}
+
+.dfll .abstract {
     position: absolute;
     z-index: -1;
     width: 100%;

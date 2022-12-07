@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;  
+    margin: 0 20px 0 20px;
 }
 
 #padf{
@@ -67,6 +68,10 @@ h1, h2, h3, h4, h5, h6{
 .home-section .abstract {
     top: 0;
     right: 0;
+}
+
+.h1, h2, h3, p{
+    padding-left: 20px;
 }
 
 .abstract_1 {
@@ -291,11 +296,11 @@ a.lin {
 
         /* SOCIALL */
 
-
         /* MAIN */
 
 .main-first{
     padding-top: 250px;
+    margin-left: 20px;
 }
 
 .main-text{
@@ -414,10 +419,12 @@ a.lin {
     width: 100%;
     max-width: 515px;
     display: block;
+    margin-left: 20px;
 }
 
 .main-third{
     padding-top: 100px;
+    margin-left: 20px;
 }
 
 .mini-text h3{
@@ -554,6 +561,7 @@ a.lin {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px 0 20px;
 }
 
 .main-fife{
@@ -590,6 +598,7 @@ footer{
     font-weight: 300;
     font-family: "Geometria";
     margin: 0;
+    padding: 0;
 }
 
 
@@ -629,12 +638,16 @@ footer{
     line-height: 1.57;
 }
 
-.sub-title-nav {
-    list-style: none;
+.sub-title{
+    padding-left: 20px;
 }
 
 .sub-title-nav{
     padding: 0;
+}
+
+.sub-title-nav {
+    list-style: none;
 }
 
 .pdr{
@@ -719,6 +732,10 @@ footer{
 
 form{
     display: flex;
+}
+
+.lepa{
+    margin-left: 20px;
 }
 
 

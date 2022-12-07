@@ -651,6 +651,14 @@ footer{
     list-style: none;
 }
 
+#pelmen{
+    margin-top: 10px;
+}
+
+.ppp{
+    padding: 0;
+}
+
 .pdr{
     padding: 15px 0;
 }

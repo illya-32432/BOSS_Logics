@@ -93,6 +93,38 @@ h1, h2, h3, h4, h5, h6{
     bottom: 0;
 }
 
+.bcg-last {
+	position: absolute;
+	width: 80%;
+	height: 200%;
+	top: -5%;
+	right: -10%;
+	background: url(../img/bottom.svg) no-repeat;
+	z-index: -1;
+	transform: rotate(5deg);
+}
+
+.bcg-last-two {
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top: 20%;
+	right: -50%;
+	background: url(../img/bottom.svg) no-repeat;
+	z-index: -1;
+}
+
+.bcg-last-three {
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top: 35%;
+	right: -60%;
+	background: url(../img/bottom.svg) no-repeat;
+	z-index: -1;
+	transform: rotate(50deg);
+}
+
 .main-seconde {
     position: relative;
 }

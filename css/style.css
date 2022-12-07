@@ -661,6 +661,10 @@ footer{
     margin-left: -20px;    
 }
 
+.hovt:hover{
+    text-decoration: underline;
+}
+
 .tel::before{
     content: url(../img/tel.png);
     padding-right: 5px;

@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6{
     background-image: url(../img/Path1.svg);
     background-repeat: no-repeat;
     background-position-y: -25rem;
-    right: 2%;
+    right: 0;
     width: 73%;
     height: 825rem;
     z-index: -1;

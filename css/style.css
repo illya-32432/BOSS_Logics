@@ -403,11 +403,11 @@ a.lin {
 
 .dfl{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.pipyka{
-    margin-left: 110px;
+.pipyka {
+    margin-left: 17px;
 }
 
 .pipyk{
@@ -433,7 +433,7 @@ a.lin {
     text-transform: uppercase;
     color: #0099ff;
     font-weight: bold;
-    font-family: "Geometria";
+    font-family: "Geometria-Medium";
     padding-top: 50px;
 }
 
@@ -462,12 +462,12 @@ a.lin {
     text-transform: uppercase;
     color: #1a1a1a;
     font-weight: bold;
-    font-family: "Geometria";
+    font-family: "Geometria-Medium";
     text-align: center;
 }
 
 .sub-title-p p{
-    font-size: 18px;
+    font-size: 17px;
     color: #2b2b2b;
     font-family: "Geometria";
     text-align: center;

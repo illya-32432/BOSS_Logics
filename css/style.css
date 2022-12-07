@@ -28,18 +28,19 @@ h1, h2, h3, h4, h5, h6{
 
 .bg1 {
     position: absolute;
-    background-image: url(../img/Path\ 0.svg);
-    background-position-y: -440rem;
-    right: 0;
+    background-image: url(../img/Path1.svg);
+    background-repeat: no-repeat;
+    background-position-y: -25rem;
+    right: 2%;
     width: 73%;
     height: 825rem;
     z-index: -1;
 }
-
 .bg2 {
     position: absolute;
-    background-image: url(../img/Path\ 0\ \(1\).svg);
-    background-position-y: -500rem;
+    background-image: url(../img/Path2.svg);
+    background-repeat: no-repeat;
+    background-position-y: -25rem;
     right: 0;
     width: 58%;
     height: 700rem;
@@ -48,38 +49,20 @@ h1, h2, h3, h4, h5, h6{
 
 .bg3 {
     position: absolute;
-    background-image: url(../img/Path\ 0\ \(2\).svg);
-    background-position-y: -650rem;
+    background: url(../img/Path3.svg);
+    background-repeat: no-repeat;
+    background-position-y: -27rem;
     right: 0;
     width: 45%;
     height: 540rem;
     z-index: -1;
 }
 
-.bg4 {
-    position: absolute;
-    background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
-    right: 0;
-    top: -75rem;
-    width: 52%;
-    height: 800rem;
-    z-index: -1;
-}
-
-.bg5 {
-    position: absolute;
-    background: url(../img/Path\ 0\ \(4\).svg) no-repeat;
-    right: -60rem;
-    width: 50%;
-    height: 664rem;
-    z-index: -1;
-}
-
 .bg6 {
     position: absolute;
     background: url(../img/Path\ 21.svg) no-repeat;
-    top: -120rem;
-    left: -120rem;
+    top: -12rem;
+    left: -12rem;
     width: 60%;
     height: 800rem;
     z-index: -1;
@@ -88,14 +71,21 @@ h1, h2, h3, h4, h5, h6{
 .bg7 {
     position: absolute;
     background: url(../img/Path\ 22.svg) no-repeat;
-    width: 30%;
+    top: -20%;
+    left: -8%;
+    width: 100%;
     height: 650rem;
     z-index: -1;
+}
+
+.main-seconde{
+    position: relative;
 }
 
 .bg8 {
     position: absolute;
     background: url(../img/Path\ 23.svg) no-repeat;
+    background-position: no-repeat;
     background-position-y: 100rem;
     width: 70%;
     height: 1000rem;
@@ -106,6 +96,7 @@ h1, h2, h3, h4, h5, h6{
 .bg9 {
     position: absolute;
     background: url(../img/Path\ 24.svg) no-repeat;
+    background-position: no-repeat;
     background-position-y: 200rem;
     width: 52%;
     height: 874rem;
@@ -126,6 +117,7 @@ h1, h2, h3, h4, h5, h6{
 .bg11 {
     position: absolute;
     background: url(../img/Path\ 26.svg) no-repeat;
+    background-position: no-repeat;
     width: 80%;
     height: 1000rem;
     left: -220rem;
@@ -136,6 +128,7 @@ h1, h2, h3, h4, h5, h6{
 .bg12 {
     position: absolute;
     background: url(../img/Path\ 27.svg) no-repeat;
+    background-position: no-repeat;
     width: 80%;
     height: 1000rem;
     left: -170rem;

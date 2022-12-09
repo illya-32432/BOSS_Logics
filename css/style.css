@@ -182,6 +182,50 @@ img{
     padding: 0;
 }
 
+.white-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    right: -50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: 100% / contain;
+    z-index: -2;
+}
+
+.white-bg-two {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 15%;
+    left: 50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: 100% / contain;
+    z-index: -2;
+}
+
+.white-bg-l {
+    position: absolute;
+    width: 60%;
+    height: 150%;
+    top: 3302px;
+    left: -25%;
+    background: url(../img/big-white.svg) no-repeat;
+    background-size: auto;
+    z-index: -1;
+}
+
+.white-bg-two-l {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 55%;
+    left: -50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: auto;
+    z-index: -1;
+}
+
 .nav-menu li{
     margin-right: 50px;
 }

@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
 }
 
-.h1, h3, p{
+.h1, h3{
     padding-left: 20px;
 }
 
@@ -196,6 +196,17 @@ img{
     text-decoration: none;
 }
 
+.pad-12{
+    margin: 0 12px 25px 0;
+}
+
+.pad-13{
+    margin: 0 2px 25px 0;
+}
+
+.pad-14{
+    margin: 0 4px 25px 0;
+}
 
 .nav-menu li a:hover{
     color: #1a1a1a;
@@ -243,7 +254,6 @@ img{
     width: 23px;
     height: 20px;
     background-position: -13px 0;
-    margin: 0 20px;
  }
  
  .social li:hover>.tw {
@@ -273,16 +283,16 @@ img{
     margin-left: 90px;
 }
 
-a.inl{
-    width: 22px;
-    height: 20px;
-    background-position: -62px 0px;
+a.inl {
+    width: 21px;
+    height: 21px;
+    background-position: -61px 0;
 }
 
 .social li:hover>.inl{
-    width: 22px;
-    height: 20px;
-    background-position: -61px -22px;
+    width: 21px;
+    height: 21px;
+    background-position: -60.5px -21px;
  }
 
         /* SOCIAL */
@@ -302,12 +312,11 @@ a.inl{
     background: url(../img/sprite.png) no-repeat;
 }
 
- 
+
 a.tww {
     width: 23px;
     height: 20px;
     background-position: -13px 0;
-    margin: 0 20px;
 }
 
 .sociall ul{
@@ -391,6 +400,7 @@ a.lin {
     margin: 55px 0;
 }
 
+
 .buttom a{
     font-size: 14px;
     letter-spacing: 1px;
@@ -402,7 +412,6 @@ a.lin {
     border-radius: 40px;
     text-decoration: none;
     padding: 20px 85px;
-    margin-right: 30px;
     transition-duration: 0.5s;
 }
 
@@ -512,7 +521,16 @@ a.lin {
 
 .flex{
     display: flex;
+    justify-content: space-between;
     margin-top: 25px;
+}
+
+.corka{
+    margin-left: 10px;
+}
+
+.twitter{
+    margin: 0 20px;
 }
 
 .flexx{
@@ -520,6 +538,10 @@ a.lin {
     justify-content: space-between;
     padding: 80px 0 50px 0;
     border-bottom: 1px solid #fff;
+}
+
+.pad-0{
+    padding: 0; 
 }
 
 .first-mini-block{
@@ -535,10 +557,6 @@ a.lin {
 .third-mini-block{
     width: 100%;
     max-width: 250px;
-}
-
-.padd{
-    padding-left: 180px;
 }
 
 .bottom{
@@ -646,7 +664,7 @@ footer{
 
 
 .img img{
-    max-width: 575px;
+    max-width: 700px;
 }
 
 .pelmen{

@@ -206,7 +206,7 @@ img{
 
 .white-bg-l {
     position: absolute;
-    width: 60%;
+    width: 80%;
     height: 150%;
     top: 3302px;
     left: -25%;
@@ -217,7 +217,7 @@ img{
 
 .white-bg-two-l {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 100%;
     top: 55%;
     left: -50%;
@@ -420,6 +420,14 @@ ul>li {
 }
 
 .main-text h1{
+    font-size: 60px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
+}
+
+h5{
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;

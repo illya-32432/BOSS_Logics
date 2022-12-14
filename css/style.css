@@ -136,12 +136,10 @@ h1, h2, h3, h4, h5, h6{
 
 .dfl {
     position: relative;
-    overflow: hidden;
 }
 
 .dfll {
     position: relative;
-    overflow: hidden;
 }
 
 .dfll{
@@ -427,7 +425,7 @@ ul>li {
     padding-left: 23px;
 }
 
-h5{
+h2{
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;
@@ -643,7 +641,11 @@ h5{
     transition-duration: 0.5s;
 }
 
-.bottom h2 a{
+.kypadur{
+    overflow: hidden;
+}
+
+.bottom p a{
     font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;

@@ -350,55 +350,55 @@ a.inl {
 
 .social-bottom a {
 	display: block;
-	background: url(../img/sprite.png) no-repeat;
+	background: url(../img/sprite_mou.png) no-repeat;
 }
 
 a.fb-b {
-	width: 13px;
-	height: 19px;
-	background-position: -2px -2px;
+	width: 10px;
+	height: 18px;
+	background-position: 0px 0px;
 }
 
 a.fb-b:hover {
-	width: 13px;
-	height: 19px;
-	background-position: -3px -47px;
+	width: 10px;
+	height: 18px;
+	background-position: 0px -20px;
 }
 
 a.tw-b {
-	width: 24px;
-	height: 19px;
-	background-position: -15px -2px;
+	width: 22px;
+	height: 18px;
+	background-position: -12px 0px;
 }
 
 a.tw-b:hover {
-	width: 24px;
-	height: 19px;
-	background-position: -16px -48px;
+	width: 22px;
+	height: 18px;
+	background-position: -12px -20px;
 }
 
 a.inst-b {
-	width: 20px;
-	height: 19px;
-	background-position: -41px -2px;
+	width: 19px;
+	height: 18px;
+	background-position: -36px 0px;
 }
 
 a.inst-b:hover {
-	width: 20px;
-	height: 19px;
-	background-position: -42px -48px;
+	width: 19px;
+	height: 18px;
+	background-position: -36px -20px;
 }
 
 a.in-b {
-	width: 22px;
-	height: 21px;
-	background-position: -63.5px -2px;
+	width: 19px;
+	height: 19px;
+	background-position: -57px 0px;
 }
 
 a.in-b:hover {
-	width: 22px;
-	height: 21px;
-	background-position: -64.5px -46px;
+	width: 19px;
+	height: 19px;
+	background-position: -57px -19px;
 }
 
 
